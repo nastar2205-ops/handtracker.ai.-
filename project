@@ -3,7 +3,7 @@ import numpy as np
 import time
 
 cap = cv2.VideoCapture(0)
-FPS_LIMIT = 20
+FPS_LIMIT = 5
 last_time = 0
 
 while True:
